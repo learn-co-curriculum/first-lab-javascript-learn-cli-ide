@@ -1,0 +1,33 @@
+{
+  "name": "first-lab-java-script-learn-cli-ide",
+  "version": "0.1.0",
+  "description": "Practice writing a file and running learn submit",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/first-lab-java-script-learn-cli-ide.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/first-lab-java-script-learn-cli-ide/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/first-lab-java-script-learn-cli-ide#readme",
+  "devDependencies": {
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "mocha-multi": "^0.9.0"
+  }
+}
